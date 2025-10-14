@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dr-amine/static/css/main.e6c13ad2.css",
+    "main.js": "/dr-amine/static/js/main.530f7db3.js",
+    "static/js/453.b7c1c92a.chunk.js": "/dr-amine/static/js/453.b7c1c92a.chunk.js",
+    "index.html": "/dr-amine/index.html",
+    "main.e6c13ad2.css.map": "/dr-amine/static/css/main.e6c13ad2.css.map",
+    "main.530f7db3.js.map": "/dr-amine/static/js/main.530f7db3.js.map",
+    "453.b7c1c92a.chunk.js.map": "/dr-amine/static/js/453.b7c1c92a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.530f7db3.js"
+  ]
+}
