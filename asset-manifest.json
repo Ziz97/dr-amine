@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dr-amine/static/css/main.ec1e965c.css",
-    "main.js": "/dr-amine/static/js/main.ac865107.js",
+    "main.css": "/dr-amine/static/css/main.569f73b6.css",
+    "main.js": "/dr-amine/static/js/main.5dad5d0b.js",
     "static/js/453.b7c1c92a.chunk.js": "/dr-amine/static/js/453.b7c1c92a.chunk.js",
     "index.html": "/dr-amine/index.html",
-    "main.ec1e965c.css.map": "/dr-amine/static/css/main.ec1e965c.css.map",
-    "main.ac865107.js.map": "/dr-amine/static/js/main.ac865107.js.map",
+    "main.569f73b6.css.map": "/dr-amine/static/css/main.569f73b6.css.map",
+    "main.5dad5d0b.js.map": "/dr-amine/static/js/main.5dad5d0b.js.map",
     "453.b7c1c92a.chunk.js.map": "/dr-amine/static/js/453.b7c1c92a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec1e965c.css",
-    "static/js/main.ac865107.js"
+    "static/css/main.569f73b6.css",
+    "static/js/main.5dad5d0b.js"
   ]
 }
