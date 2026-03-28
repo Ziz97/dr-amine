@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "BrightSmile Dental — Cabinet dentaire",
+    "description": "Soins dentaires professionnels dans un cadre accueillant. Blanchiment, implants, orthodontie et urgences."
+  },
+  "nav": {
+    "brand": "BrightSmile Dental",
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Votre sourire, notre passion",
+    "subtitle": "Des soins dentaires professionnels pour un sourire sain et confiant.",
+    "cta": "Prendre rendez-vous"
+  },
+  "services": {
+    "title": "Nos services",
+    "items": [
+      {
+        "title": "Blanchiment dentaire",
+        "desc": "Éclairez votre sourire avec des traitements sûrs et efficaces."
+      },
+      {
+        "title": "Implants dentaires",
+        "desc": "Remplacements durables et naturels pour les dents manquantes."
+      },
+      {
+        "title": "Orthodontie",
+        "desc": "Alignez vos dents avec des bagues modernes ou des aligneurs transparents."
+      },
+      {
+        "title": "Urgences dentaires",
+        "desc": "Prise en charge rapide et professionnelle en cas d’urgence."
+      }
+    ]
+  },
+  "about": {
+    "title": "À propos du cabinet",
+    "p1": "Au cabinet BrightSmile Dental, nous nous engageons à offrir des soins dentaires de qualité dans un environnement convivial et confortable. Notre équipe expérimentée utilise une technologie de pointe pour préserver votre plus beau sourire.",
+    "p2": "Nous traitons chaque patient comme un membre de la famille et visons à rendre chaque visite aussi agréable que possible.",
+    "imageAlt": "Salle de soins du cabinet dentaire"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos patients",
+    "items": [
+      {
+        "name": "Sarah L.",
+        "quote": "L’équipe du Dr Patel est formidable ! Mon sourire n’a jamais été aussi beau."
+      },
+      {
+        "name": "James R.",
+        "quote": "J’avais peur des soins dentaires, mais ils m’ont mis tout de suite à l’aise."
+      },
+      {
+        "name": "Emily T.",
+        "quote": "Professionnel, propre et attentionné — je recommande vivement BrightSmile Dental !"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Prendre rendez-vous",
+    "intro": "Appelez-nous au <strong>{{phone}}</strong> ou remplissez le formulaire ci-dessous.",
+    "phone": "(555) 123-4567",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre e-mail",
+    "messagePlaceholder": "Message",
+    "submit": "Envoyer"
+  },
+  "lang": {
+    "switch": "Langue"
+  }
+}

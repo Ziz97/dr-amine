@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
+import { LanguageProvider } from "./context/LanguageContext";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("renders site brand", () => {
+  render(
+    <LanguageProvider>
+      <App />
+    </LanguageProvider>
+  );
+  expect(screen.getByText("BrightSmile Dental")).toBeInTheDocument();
 });
