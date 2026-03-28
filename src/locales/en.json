@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "BrightSmile Dental — Dental Practice",
+    "description": "Professional dental care in a welcoming environment. Whitening, implants, orthodontics, and emergency care."
+  },
+  "nav": {
+    "brand": "BrightSmile Dental",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Smile, Our Passion",
+    "subtitle": "Professional dental care to help you achieve a healthy, confident smile.",
+    "cta": "Book an Appointment"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Teeth Whitening",
+        "desc": "Brighten your smile with safe, effective whitening treatments."
+      },
+      {
+        "title": "Dental Implants",
+        "desc": "Permanent, natural-looking replacements for missing teeth."
+      },
+      {
+        "title": "Orthodontics",
+        "desc": "Straighten your teeth with modern braces or clear aligners."
+      },
+      {
+        "title": "Emergency Care",
+        "desc": "Fast, professional treatment for urgent dental problems."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Our Clinic",
+    "p1": "At BrightSmile Dental, we are committed to providing top-quality dental care in a friendly and comfortable environment. Our experienced team uses state-of-the-art technology to ensure your best smile.",
+    "p2": "We treat every patient like family and aim to make every visit as pleasant as possible.",
+    "imageAlt": "Dental clinic treatment room"
+  },
+  "testimonials": {
+    "title": "What Our Patients Say",
+    "items": [
+      {
+        "name": "Sarah L.",
+        "quote": "Dr. Patel and his team are amazing! My smile has never looked better."
+      },
+      {
+        "name": "James R.",
+        "quote": "I was nervous about dental visits, but they made me feel completely comfortable."
+      },
+      {
+        "name": "Emily T.",
+        "quote": "Professional, clean, and caring — highly recommend BrightSmile Dental!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Book an Appointment",
+    "intro": "Call us at <strong>{{phone}}</strong> or fill out the form below.",
+    "phone": "(555) 123-4567",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Message",
+    "submit": "Submit"
+  },
+  "lang": {
+    "switch": "Language"
+  }
+}
