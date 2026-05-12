@@ -8,5 +8,5 @@ test("renders site brand", () => {
       <App />
     </LanguageProvider>
   );
-  expect(screen.getByText("BrightSmile Dental")).toBeInTheDocument();
+  expect(screen.getByText("DUO SMILE Dental Center")).toBeInTheDocument();
 });

@@ -1,0 +1,13 @@
+/**
+ * Classes utilitaires globales (préfixe u-).
+ * Complètent Tailwind : composez avec les utilitaires Tailwind dans les composants.
+ * Importé depuis index.css après les directives @tailwind.
+ */
+
+.u-color-dark-purple {
+  color: #3B2F82;
+}
+
+.u-color-gold {
+  color: #B58A00;
+}

@@ -1,10 +1,13 @@
 {
   "meta": {
-    "title": "BrightSmile Dental — Cabinet dentaire",
+    "title": "DUO SMILE Dental Center — Cabinet dentaire",
     "description": "Soins dentaires professionnels dans un cadre accueillant. Blanchiment, implants, orthodontie et urgences."
   },
   "nav": {
-    "brand": "BrightSmile Dental",
+    "brand": "DUO SMILE Dental Center",
+    "brand1": "DUO",
+    "brand2": "SMILE Dental",
+    "brand3": "Center",
     "home": "Accueil",
     "services": "Services",
     "about": "À propos",
@@ -39,7 +42,7 @@
   },
   "about": {
     "title": "À propos du cabinet",
-    "p1": "Au cabinet BrightSmile Dental, nous nous engageons à offrir des soins dentaires de qualité dans un environnement convivial et confortable. Notre équipe expérimentée utilise une technologie de pointe pour préserver votre plus beau sourire.",
+    "p1": "Au cabinet DUO SMILE Dental Center, nous nous engageons à offrir des soins dentaires de qualité dans un environnement convivial et confortable. Notre équipe expérimentée utilise une technologie de pointe pour préserver votre plus beau sourire.",
     "p2": "Nous traitons chaque patient comme un membre de la famille et visons à rendre chaque visite aussi agréable que possible.",
     "imageAlt": "Salle de soins du cabinet dentaire"
   },
@@ -56,7 +59,7 @@
       },
       {
         "name": "Emily T.",
-        "quote": "Professionnel, propre et attentionné — je recommande vivement BrightSmile Dental !"
+        "quote": "Professionnel, propre et attentionné — je recommande vivement DUO SMILE Dental Center !"
       }
     ]
   },
