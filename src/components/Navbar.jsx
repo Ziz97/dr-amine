@@ -7,7 +7,11 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md fixed w-full z-10 top-0">
       <div className="container mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
-        <h1 className="text-2xl font-bold text-blue-600">{t("nav.brand")}</h1>
+        <h1 className="text-2xl font-bold text-blue-600">
+          <span className="u-color-gold">{t("nav.brand1")}</span>
+          <span className="u-color-dark-purple">&nbsp;{t("nav.brand2")}</span>
+          <span className="u-color-gold">&nbsp;{t("nav.brand3")}</span>
+        </h1>
         <div className="flex items-center gap-4 md:gap-6">
           <ul className="hidden md:flex flex-wrap gap-8">
             <li>

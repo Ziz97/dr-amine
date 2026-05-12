@@ -1,5 +1,6 @@
 import React from "react";
 import { useLanguage } from "../context/LanguageContext";
+import aboutImage from "../assets/images/duo_smile.jpg";
 
 export default function About() {
   const { t } = useLanguage();
@@ -8,7 +9,7 @@ export default function About() {
     <section id="about" className="py-16 bg-blue-50">
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
         <img
-          src="https://www.cabinetdentairelb.com/wp-content/uploads/salle-de-soins.jpg"
+          src={aboutImage}
           alt={t("about.imageAlt")}
           className="rounded-lg shadow-lg"
         />

@@ -1,10 +1,13 @@
 {
   "meta": {
-    "title": "BrightSmile Dental — Dental Practice",
+    "title": "DUO SMILE Dental Center — Dental Practice",
     "description": "Professional dental care in a welcoming environment. Whitening, implants, orthodontics, and emergency care."
   },
   "nav": {
-    "brand": "BrightSmile Dental",
+    "brand": "DUO SMILE Dental Center",
+    "brand1": "DUO",
+    "brand2": "SMILE Dental",
+    "brand3": "Center",
     "home": "Home",
     "services": "Services",
     "about": "About",
@@ -39,7 +42,7 @@
   },
   "about": {
     "title": "About Our Clinic",
-    "p1": "At BrightSmile Dental, we are committed to providing top-quality dental care in a friendly and comfortable environment. Our experienced team uses state-of-the-art technology to ensure your best smile.",
+    "p1": "At DUO SMILE Dental Center, we are committed to providing top-quality dental care in a friendly and comfortable environment. Our experienced team uses state-of-the-art technology to ensure your best smile.",
     "p2": "We treat every patient like family and aim to make every visit as pleasant as possible.",
     "imageAlt": "Dental clinic treatment room"
   },
@@ -56,7 +59,7 @@
       },
       {
         "name": "Emily T.",
-        "quote": "Professional, clean, and caring — highly recommend BrightSmile Dental!"
+        "quote": "Professional, clean, and caring — highly recommend DUO SMILE Dental Center!"
       }
     ]
   },
