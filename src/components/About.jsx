@@ -1,6 +1,6 @@
 import React from "react";
 import { useLanguage } from "../context/LanguageContext";
-import aboutImage from "../assets/images/duo_smile.jpg";
+import aboutImage from "../assets/images/reception.png";
 
 export default function About() {
   const { t } = useLanguage();
@@ -15,8 +15,7 @@ export default function About() {
         />
         <div>
           <h3 className="text-3xl font-bold mb-4 text-gray-800">{t("about.title")}</h3>
-          <p className="text-gray-600 mb-4">{t("about.p1")}</p>
-          <p className="text-gray-600">{t("about.p2")}</p>
+          <p className="text-gray-600 leading-relaxed">{t("about.body")}</p>
         </div>
       </div>
     </section>

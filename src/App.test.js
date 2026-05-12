@@ -8,5 +8,5 @@ test("renders site brand", () => {
       <App />
     </LanguageProvider>
   );
-  expect(screen.getByText("DUO SMILE Dental Center")).toBeInTheDocument();
+  expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("DUO SMILE Dental Center");
 });

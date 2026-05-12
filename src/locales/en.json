@@ -14,9 +14,8 @@
     "testimonials": "Testimonials",
     "contact": "Contact"
   },
-  "hero": {
-    "title": "Your Smile, Our Passion",
-    "subtitle": "Professional dental care to help you achieve a healthy, confident smile.",
+  "home": {
+    "title": "Two areas of expertise, one single mission: giving you your smile back",
     "cta": "Book an Appointment"
   },
   "services": {
@@ -42,9 +41,8 @@
   },
   "about": {
     "title": "About Our Clinic",
-    "p1": "At DUO SMILE Dental Center, we are committed to providing top-quality dental care in a friendly and comfortable environment. Our experienced team uses state-of-the-art technology to ensure your best smile.",
-    "p2": "We treat every patient like family and aim to make every visit as pleasant as possible.",
-    "imageAlt": "Dental clinic treatment room"
+    "body": "Welcome to our DUO SMILE dental centre with Dr Mohammed Amine EL GHORFI and Dr Nassima EL FAKIR, in the heart of Temara on Avenue Hassan II. As a couple in practice, we welcome you in a calm setting to care for your oral health. From prevention to cosmetic dentistry, surgery, and orthodontics, we bring our complementary expertise to children and adults alike. Our modern facility helps us deliver gentle, precise, and long-lasting care. Book your appointment today!",
+    "imageAlt": "DUO SMILE dental centre reception in Temara"
   },
   "testimonials": {
     "title": "What Our Patients Say",

@@ -20,13 +20,13 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#services" className="hover:text-blue-600">
-                {t("nav.services")}
+              <a href="#about" className="hover:text-blue-600">
+                {t("nav.about")}
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-blue-600">
-                {t("nav.about")}
+              <a href="#services" className="hover:text-blue-600">
+                {t("nav.services")}
               </a>
             </li>
             <li>

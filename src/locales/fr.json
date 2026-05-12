@@ -14,9 +14,8 @@
     "testimonials": "Témoignages",
     "contact": "Contact"
   },
-  "hero": {
-    "title": "Votre sourire, notre passion",
-    "subtitle": "Des soins dentaires professionnels pour un sourire sain et confiant.",
+  "home": {
+    "title": "Deux expertises , une seule mission : vous redonner le sourire",
     "cta": "Prendre rendez-vous"
   },
   "services": {
@@ -42,9 +41,8 @@
   },
   "about": {
     "title": "À propos du cabinet",
-    "p1": "Au cabinet DUO SMILE Dental Center, nous nous engageons à offrir des soins dentaires de qualité dans un environnement convivial et confortable. Notre équipe expérimentée utilise une technologie de pointe pour préserver votre plus beau sourire.",
-    "p2": "Nous traitons chaque patient comme un membre de la famille et visons à rendre chaque visite aussi agréable que possible.",
-    "imageAlt": "Salle de soins du cabinet dentaire"
+    "body": "Bienvenue dans notre centre dentaire DUO SMILE du Dr Mohammed Amine EL GHORFI et Dr Nassima EL FAKIR, situé en plein cœur de Témara, sur l'avenue Hassan II. Pratiquant en couple, nous vous accueillons dans une ambiance sereine pour prendre soin de votre santé bucco-dentaire. De la prévention aux soins esthétiques, en passant par la chirurgie et l'orthodontie, nous mettons notre expertise complémentaire au service des petits et des grands. Nous disposons d'un plateau technique moderne pour vous garantir des soins doux, précis et durables. Prenez rendez-vous dès aujourd'hui !",
+    "imageAlt": "Réception du centre dentaire DUO SMILE à Témara"
   },
   "testimonials": {
     "title": "Ce que disent nos patients",
