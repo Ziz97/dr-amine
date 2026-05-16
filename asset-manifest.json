@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dr-amine/static/css/main.a14e55a2.css",
-    "main.js": "/dr-amine/static/js/main.6c078cdf.js",
+    "main.css": "/dr-amine/static/css/main.eda316d0.css",
+    "main.js": "/dr-amine/static/js/main.af05e808.js",
     "static/js/453.b7c1c92a.chunk.js": "/dr-amine/static/js/453.b7c1c92a.chunk.js",
     "static/media/reception.png": "/dr-amine/static/media/reception.a4d53de2902489f0de58.png",
     "static/media/root-canal-treatment.jpeg": "/dr-amine/static/media/root-canal-treatment.1f098ab548008dbfadc1.jpeg",
@@ -12,17 +12,18 @@
     "static/media/intraoral-scan.jpeg": "/dr-amine/static/media/intraoral-scan.bb74ee0f16eba7ee2598.jpeg",
     "static/media/removable-denture.jpeg": "/dr-amine/static/media/removable-denture.29a8b16fd27575d51978.jpeg",
     "static/media/dental-tray.jpeg": "/dr-amine/static/media/dental-tray.09cbe3c7d67bcccfaef3.jpeg",
+    "static/media/duo-smile.jpg": "/dr-amine/static/media/duo-smile.d285349ec238e6e3a28f.jpg",
     "static/media/tooth-extraction.jpeg": "/dr-amine/static/media/tooth-extraction.142139ce3b384cac47a8.jpeg",
     "static/media/panoramic-radio.jpeg": "/dr-amine/static/media/panoramic-radio.9fe47a20a65dfce2ec54.jpeg",
     "static/media/dental-crown.jpeg": "/dr-amine/static/media/dental-crown.01e919111791518ac92f.jpeg",
     "static/media/scaling.jpeg": "/dr-amine/static/media/scaling.1baad0b4c9ff1533083c.jpeg",
     "index.html": "/dr-amine/index.html",
-    "main.a14e55a2.css.map": "/dr-amine/static/css/main.a14e55a2.css.map",
-    "main.6c078cdf.js.map": "/dr-amine/static/js/main.6c078cdf.js.map",
+    "main.eda316d0.css.map": "/dr-amine/static/css/main.eda316d0.css.map",
+    "main.af05e808.js.map": "/dr-amine/static/js/main.af05e808.js.map",
     "453.b7c1c92a.chunk.js.map": "/dr-amine/static/js/453.b7c1c92a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a14e55a2.css",
-    "static/js/main.6c078cdf.js"
+    "static/css/main.eda316d0.css",
+    "static/js/main.af05e808.js"
   ]
 }
