@@ -26,9 +26,11 @@ export default function Services() {
   if (items.length === 0) return null;
 
   return (
-    <section id="services" className="py-16 bg-blue-50">
+    <section id="services" className="f-section f-section--alt">
       <div className="container mx-auto px-6 text-center">
-        <h3 className="text-3xl font-bold text-gray-800 mb-10">{t("services.title")}</h3>
+        <p className="f-eyebrow mb-3">02</p>
+        <h3 className="f-title text-3xl md:text-4xl mb-4">{t("services.title")}</h3>
+        <div className="f-divider mb-12" />
 
         <div
           className="relative mx-auto max-w-4xl min-h-[420px]"
@@ -47,17 +49,17 @@ export default function Services() {
                 }`}
                 aria-hidden={i !== activeIndex}
               >
-                <div className="grid md:grid-cols-2 gap-8 items-center p-6 border rounded-lg shadow-sm bg-white text-start">
+                <div className="f-card grid md:grid-cols-2 gap-8 items-center p-6 md:p-8 text-start">
                   {src ? (
                     <img
                       src={src}
                       alt=""
-                      className="w-full h-56 md:h-72 object-cover rounded-lg shadow-md md:order-1 rtl:md:order-2"
+                      className="w-full h-56 md:h-72 object-cover rounded-lg f-img-frame md:order-1 rtl:md:order-2"
                     />
                   ) : (
-                    <div className="w-full h-56 md:h-72 bg-blue-100 rounded-lg md:order-1 rtl:md:order-2" />
+                    <div className="w-full h-56 md:h-72 rounded-lg bg-futur-panel md:order-1 rtl:md:order-2" />
                   )}
-                  <p className="text-gray-600 leading-relaxed whitespace-pre-line md:order-2 rtl:md:order-1">
+                  <p className="f-text leading-relaxed whitespace-pre-line md:order-2 rtl:md:order-1">
                     {item.desc}
                   </p>
                 </div>
@@ -67,7 +69,7 @@ export default function Services() {
         </div>
 
         {items.length > 1 && (
-          <div className="flex justify-center gap-2 mt-8">
+          <div className="flex justify-center gap-2 mt-10">
             {items.map((item, i) => (
               <button
                 key={item.image ?? i}
@@ -75,9 +77,7 @@ export default function Services() {
                 aria-label={`${i + 1} / ${items.length}`}
                 aria-current={i === activeIndex}
                 onClick={() => setActiveIndex(i)}
-                className={`h-2.5 rounded-full transition-all duration-300 ${
-                  i === activeIndex ? "w-8 bg-blue-600" : "w-2.5 bg-blue-200 hover:bg-blue-400"
-                }`}
+                className={`f-dot ${i === activeIndex ? "f-dot--active" : "f-dot--inactive"}`}
               />
             ))}
           </div>

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
+import FuturisticBackground from "./components/FuturisticBackground";
 import Home from "./components/Home";
 import Services from "./components/Services";
 import About from "./components/About";
@@ -14,13 +15,16 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="relative min-h-screen font-body text-slate-200">
+      <FuturisticBackground />
       <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <Testimonials />
-      <Contact />
+      <main>
+        <Home />
+        <About />
+        <Services />
+        <Testimonials />
+        <Contact />
+      </main>
     </div>
   );
 }

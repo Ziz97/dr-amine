@@ -16,28 +16,35 @@ export default function Contact() {
   }, [t]);
 
   return (
-    <section id="contact" className="py-16 bg-blue-600 text-white text-center">
+    <section id="contact" className="f-section pb-24">
       <div className="container mx-auto px-6">
-        <h3 className="text-3xl font-bold mb-6">{t("contact.title")}</h3>
-        <p className="mb-10 text-blue-100" dangerouslySetInnerHTML={{ __html: introHtml }} />
+        <div className="f-card max-w-3xl mx-auto p-10 md:p-14 text-center border-futur-cyan/30 shadow-neon-cyan">
+          <p className="f-eyebrow mb-3">04</p>
+          <h3 className="f-title text-3xl md:text-4xl mb-4">{t("contact.title")}</h3>
+          <div className="f-divider mb-8" />
+          <p
+            className="f-text mb-10 [&_strong]:text-futur-cyan [&_strong]:font-semibold"
+            dangerouslySetInnerHTML={{ __html: introHtml }}
+          />
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-lg mx-auto">
-          <a
-            href={INSTAGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-100 transition"
-          >
-            {t("contact.instagram")}
-          </a>
-          <a
-            href={DENTISTO_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-900 transition border border-blue-400"
-          >
-            {t("contact.dentisto")}
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="f-btn-outline w-full sm:w-auto"
+            >
+              {t("contact.instagram")}
+            </a>
+            <a
+              href={DENTISTO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="f-btn-primary w-full sm:w-auto"
+            >
+              {t("contact.dentisto")}
+            </a>
+          </div>
         </div>
       </div>
     </section>
