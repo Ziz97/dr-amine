@@ -16,17 +16,24 @@ export default function Contact() {
   }, [t]);
 
   return (
-    <section id="contact" className="py-16 bg-blue-600 text-white text-center">
-      <div className="container mx-auto px-6">
-        <h3 className="text-3xl font-bold mb-6">{t("contact.title")}</h3>
-        <p className="mb-10 text-blue-100" dangerouslySetInnerHTML={{ __html: introHtml }} />
+    <section id="contact" className="ds-section ds-section--purple pb-24">
+      <div className="container mx-auto px-6 text-center max-w-2xl">
+        <p className="ds-eyebrow mb-3 text-brand-gold-light">{t("nav.contact")}</p>
+        <h3 className="font-display text-3xl md:text-4xl font-semibold text-white mb-4">
+          {t("contact.title")}
+        </h3>
+        <div className="ds-divider ds-divider--center mb-8" />
+        <p
+          className="ds-text mb-10 text-white/85 [&_strong]:text-brand-gold-light [&_strong]:font-semibold"
+          dangerouslySetInnerHTML={{ __html: introHtml }}
+        />
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-lg mx-auto">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href={INSTAGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-100 transition"
+            className="ds-btn-ghost w-full sm:w-auto"
           >
             {t("contact.instagram")}
           </a>
@@ -34,7 +41,7 @@ export default function Contact() {
             href={DENTISTO_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-900 transition border border-blue-400"
+            className="ds-btn-primary w-full sm:w-auto"
           >
             {t("contact.dentisto")}
           </a>

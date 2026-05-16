@@ -6,16 +6,20 @@ export default function About() {
   const { t } = useLanguage();
 
   return (
-    <section id="about" className="py-16 bg-white">
-      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
-        <img
-          src={aboutImage}
-          alt={t("about.imageAlt")}
-          className="rounded-lg shadow-lg"
-        />
-        <div>
-          <h3 className="text-3xl font-bold mb-4 text-gray-800">{t("about.title")}</h3>
-          <p className="text-gray-600 leading-relaxed">{t("about.body")}</p>
+    <section id="about" className="ds-section bg-white">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-12">
+          <p className="ds-eyebrow mb-3">{t("nav.about")}</p>
+          <h3 className="ds-title text-3xl md:text-4xl">{t("about.title")}</h3>
+          <div className="ds-divider ds-divider--center mt-5" />
+        </div>
+        <div className="grid md:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+          <img
+            src={aboutImage}
+            alt={t("about.imageAlt")}
+            className="ds-img w-full object-cover"
+          />
+          <p className="ds-text text-start">{t("about.body")}</p>
         </div>
       </div>
     </section>

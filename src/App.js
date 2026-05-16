@@ -14,13 +14,15 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="font-body min-h-screen">
       <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <Testimonials />
-      <Contact />
+      <main>
+        <Home />
+        <About />
+        <Services />
+        <Testimonials />
+        <Contact />
+      </main>
     </div>
   );
 }
