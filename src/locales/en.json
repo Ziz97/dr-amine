@@ -22,20 +22,52 @@
     "title": "Our Services",
     "items": [
       {
-        "title": "Teeth Whitening",
-        "desc": "Brighten your smile with safe, effective whitening treatments."
+        "image": "panoramic-radio.jpeg",
+        "desc": "Dental panoramic X-ray is 2D medical imaging, completed in just a few seconds, to view all teeth, jaws, sinuses and bone on a single image. It helps detect cavities, infections, fractures, and plan treatments."
       },
       {
-        "title": "Dental Implants",
-        "desc": "Permanent, natural-looking replacements for missing teeth."
+        "image": "scaling.jpeg",
+        "desc": "Scaling is an essential professional dental treatment to remove tartar (mineralized bacterial plaque) built up on teeth, which brushing alone cannot reach."
       },
       {
-        "title": "Orthodontics",
-        "desc": "Straighten your teeth with modern braces or clear aligners."
+        "image": "root-canal-treatment.jpeg",
+        "desc": "Root canal treatment removes the pulp from a decayed, infected or traumatized tooth to stop pain and infection. Performed under anesthesia, the procedure cleans the root canals, which are then sealed. It allows the tooth to be preserved."
       },
       {
-        "title": "Emergency Care",
-        "desc": "Fast, professional treatment for urgent dental problems."
+        "image": "tooth-extraction.jpeg",
+        "desc": "Tooth extraction involves removing a tooth when it can no longer be treated, or wisdom teeth when indicated. It relieves pain, eliminates infection and prevents complications."
+      },
+      {
+        "image": "dental-crown.jpeg",
+        "desc": "A dental crown is a fixed prosthesis that fully covers a damaged, root-treated or broken tooth to restore its shape, function and strength."
+      },
+      {
+        "image": "dental-bridge.jpeg",
+        "desc": "A dental bridge replaces one or more missing teeth in a fixed, aesthetic way."
+      },
+      {
+        "image": "teeth-whitening.jpeg",
+        "desc": "Teeth whitening is a professional treatment that lightens the shade of your teeth and restores the brightness of your smile.\nIt gently reduces stains caused by time, coffee, tea or tobacco."
+      },
+      {
+        "image": "dental-implant.jpeg",
+        "desc": "A dental implant is an artificial root, usually titanium, placed in the jawbone to replace a missing tooth and support a crown or bridge. This permanent solution offers comfort and aesthetics."
+      },
+      {
+        "image": "orthodentic-treatment.jpeg",
+        "desc": "Orthodontic treatment aligns teeth and gradually corrects misalignment for an aesthetic and functional result. It improves hygiene, comfort and helps achieve a harmonious smile."
+      },
+      {
+        "image": "dental-tray.jpeg",
+        "desc": "Dental aligners are custom-made appliances used to straighten teeth (orthodontics), protect against bruxism (grinding), or whiten teeth. Clear and discreet, they apply constant pressure to correct the dentition."
+      },
+      {
+        "image": "removable-denture.jpeg",
+        "desc": "A removable denture replaces one, several, or all missing teeth. It is custom-made to restore chewing, speech and smile aesthetics."
+      },
+      {
+        "image": "intraoral-scan.jpeg",
+        "desc": "Intraoral scanning is modern technology that creates a quick, comfortable 3D digital impression of your teeth. It is a precise diagnostic tool that helps you understand your situation through direct visualization.\n\nThis approach improves communication between practitioner and patient and enables more precise, personalized care."
       }
     ]
   },
@@ -48,27 +80,33 @@
     "title": "What Our Patients Say",
     "items": [
       {
-        "name": "Sarah L.",
-        "quote": "Dr. Patel and his team are amazing! My smile has never looked better."
+        "name": "Oumaima M.",
+        "quote": "I highly recommend the Duo Smile practice for their professionalism and the quality of their care. The team is welcoming, attentive and very focused on patient comfort. Treatment is carried out with rigor and gentleness in a clean, reassuring environment. An excellent experience."
       },
       {
-        "name": "James R.",
-        "quote": "I was nervous about dental visits, but they made me feel completely comfortable."
+        "name": "Angela M.",
+        "quote": "Excellent experience at this dental practice. From the moment you arrive, you feel well cared for: the team is professional, attentive and very organized. The practice is clean, modern and the atmosphere is reassuring.\nI thank Dr Amine and Dr Nassima for their professionalism, kindness and quality of work. You can really feel the attention to detail and patient comfort.\nI recommend without hesitation!"
       },
       {
-        "name": "Emily T.",
-        "quote": "Professional, clean, and caring — highly recommend DUO SMILE Dental Center!"
+        "name": "Asmaa J.",
+        "quote": "Perfect welcome, appointment booked without delay and efficiency delivered. The doctors are experienced and their work is top quality.\nTooooop 👍👍👍👍"
+      },
+      {
+        "name": "Yassmine H.",
+        "quote": "I highly recommend this practice. I had a dental emergency one evening with terrible pain, and they managed to see me despite a busy schedule. A very professional, reassuring and efficient team. Thank you again!"
+      },
+      {
+        "name": "Lamyae E.",
+        "quote": "I highly recommend the DUO SMILE practice.\n\nI was treated by Dr Nassima EL FAKIR, who showed great professionalism, gentleness and attentiveness throughout my care. She explains each step very clearly and really puts you at ease.\n\nDr Mohammed Amine EL GHORFI cared for my mother and we were also very satisfied with his work, skill and professionalism.\n\nA serious, clean practice with a caring team. I recommend without hesitation."
       }
     ]
   },
   "contact": {
     "title": "Book an Appointment",
-    "intro": "Call us at <strong>{{phone}}</strong> or fill out the form below.",
-    "phone": "(555) 123-4567",
-    "namePlaceholder": "Your Name",
-    "emailPlaceholder": "Your Email",
-    "messagePlaceholder": "Message",
-    "submit": "Submit"
+    "intro": "Call us at <strong>{{phone}}</strong>, follow us on Instagram, or book online.",
+    "phone": "+212 6 54 04 04 55",
+    "instagram": "Instagram",
+    "dentisto": "Book on Dentisto"
   },
   "lang": {
     "switch": "Language"

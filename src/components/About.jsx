@@ -6,7 +6,7 @@ export default function About() {
   const { t } = useLanguage();
 
   return (
-    <section id="about" className="py-16 bg-blue-50">
+    <section id="about" className="py-16 bg-white">
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
         <img
           src={aboutImage}

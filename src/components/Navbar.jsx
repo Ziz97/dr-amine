@@ -5,7 +5,7 @@ export default function Navbar() {
   const { t, locale, setLocale } = useLanguage();
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-10 top-0">
+    <nav className="bg-white shadow-md fixed w-full top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
         <h1 className="text-2xl font-bold text-blue-600">
           <span className="u-color-gold">{t("nav.brand1")}</span>

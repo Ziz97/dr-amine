@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import Services from "./components/Services";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <Home />
       <About />
       <Services />
       <Testimonials />

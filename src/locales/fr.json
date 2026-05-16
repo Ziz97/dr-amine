@@ -22,20 +22,52 @@
     "title": "Nos services",
     "items": [
       {
-        "title": "Blanchiment dentaire",
-        "desc": "Éclairez votre sourire avec des traitements sûrs et efficaces."
+        "image": "panoramic-radio.jpeg",
+        "desc": "La radio panoramique dentaire est une imagerie médicale 2D , réalisée en quelques secondes, pour visualiser l'ensemble des dents, des mâchoires, des sinus et de l'os sur un seul cliché. Elle permet de détecter caries, infections, fractures, et la planification des traitements."
       },
       {
-        "title": "Implants dentaires",
-        "desc": "Remplacements durables et naturels pour les dents manquantes."
+        "image": "scaling.jpeg",
+        "desc": "Le détartrage est un soin dentaire professionnel essentiel pour éliminer le tartre (plaque bactérienne minéralisée) accumulé sur les dents, inaccessible au brossage seul."
       },
       {
-        "title": "Orthodontie",
-        "desc": "Alignez vos dents avec des bagues modernes ou des aligneurs transparents."
+        "image": "root-canal-treatment.jpeg",
+        "desc": "La dévitalisation dentaire consiste à retirer la pulpe d'une dent cariée, infectée ou traumatisée pour stopper la douleur et l'infection. Réalisée sous anesthésie, la procédure nettoie les canaux radiculaires, qui sont ensuite obturés. Elle permet de conserver la dent."
       },
       {
-        "title": "Urgences dentaires",
-        "desc": "Prise en charge rapide et professionnelle en cas d’urgence."
+        "image": "tooth-extraction.jpeg",
+        "desc": "L'extraction dentaire consiste à retirer une dent lorsqu'elle ne peut plus être soignée ou dans le cas des dents de sagesse selon l'indication. Elle permet de soulager la douleur, d'éliminer l'infection et de prévenir les complications."
+      },
+      {
+        "image": "dental-crown.jpeg",
+        "desc": "La couronne dentaire est une prothèse fixe qui recouvre entièrement une dent abîmée, dévitalisée ou cassée pour restaurer sa forme, sa fonction et sa solidité."
+      },
+      {
+        "image": "dental-bridge.jpeg",
+        "desc": "Le bridge dentaire permet de remplacer une ou plusieurs dents manquantes de manière fixe et esthétique."
+      },
+      {
+        "image": "teeth-whitening.jpeg",
+        "desc": "Le blanchiment dentaire est un traitement professionnel qui permet d'éclaircir la teinte de vos dents et de raviver l'éclat de votre sourire.\nIl agit en douceur pour atténuer les taches liées au temps, au café, au thé ou au tabac."
+      },
+      {
+        "image": "dental-implant.jpeg",
+        "desc": "Un implant dentaire est une racine artificielle, généralement en titane, insérée dans l'os de la mâchoire pour remplacer une dent manquante et soutenir une couronne ou un bridge. Cette solution permanente offre confort et esthétique au patient."
+      },
+      {
+        "image": "orthodentic-treatment.jpeg",
+        "desc": "Le traitement orthodontique permet d'aligner les dents et corriger progressivement les mauvaises positions pour un résultat à la fois esthétique et fonctionnel. Ce soin facilite l'hygiène, améliore le confort et permet de redonner un sourire harmonieux."
+      },
+      {
+        "image": "dental-tray.jpeg",
+        "desc": "Les gouttières dentaires sont des appareils sur mesure, utilisés pour réaligner les dents (orthodontie), protéger contre le bruxisme (grincement), ou blanchir les dents. Transparents et discrets, ces aligneurs exercent une pression constante pour corriger la dentition."
+      },
+      {
+        "image": "removable-denture.jpeg",
+        "desc": "La prothèse amovible permet de remplacer une, plusieurs, ou toutes les dents manquantes. Elle est conçue sur mesure pour rétablir la mastication, l'élocution et l'esthétique du sourire."
+      },
+      {
+        "image": "intraoral-scan.jpeg",
+        "desc": "Le scan intra-oral est une technologie moderne qui permet de réaliser une empreinte numérique 3D de vos dents, rapidement et sans inconfort. Il constitue un outil de diagnostic précis tout en facilitant la compréhension de votre situation grâce à une visualisation directe.\n\nCette approche améliore la communication entre le praticien et le patient et permet des soins plus précis et personnalisés."
       }
     ]
   },
@@ -48,27 +80,33 @@
     "title": "Ce que disent nos patients",
     "items": [
       {
-        "name": "Sarah L.",
-        "quote": "L’équipe du Dr Patel est formidable ! Mon sourire n’a jamais été aussi beau."
+        "name": "Oumaima M.",
+        "quote": "Je recommande vivement le cabinet Duo smile pour leur professionnalisme et la qualité de leur prise en charge. L’équipe est accueillante, à l’écoute et très attentive au confort des patients. Les soins sont réalisés avec rigueur et douceur dans un environnement propre et rassurant. Une excellente expérience."
       },
       {
-        "name": "James R.",
-        "quote": "J’avais peur des soins dentaires, mais ils m’ont mis tout de suite à l’aise."
+        "name": "Angela M.",
+        "quote": "Excellente expérience dans ce cabinet dentaire. Dès l’accueil, on se sent bien pris en charge : l’équipe est professionnelle, attentive et très organisée. Le cabinet est propre, moderne et l’ambiance est rassurante.\nJe remercie Dr Amine et Dr Nassima pour leur sérieux, leur bienveillance et la qualité de leur travail. On sent une vraie attention portée aux détails et au confort des patients.\nJe recommande sans hésitation!"
       },
       {
-        "name": "Emily T.",
-        "quote": "Professionnel, propre et attentionné — je recommande vivement DUO SMILE Dental Center !"
+        "name": "Asmaa J.",
+        "quote": "Accueil parfait, rendez-vous pris sans délai et efficacité au rendez-vous. Les médecins sont expérimentés et leur travail est de haute qualité.\nTooooop 👍👍👍👍"
+      },
+      {
+        "name": "Yassmine H.",
+        "quote": "Je recommande vivement ce cabinet. J’ai eu une urgence dentaire un soir avec une douleur terrible, et ils ont réussi à me recevoir malgré un planning chargé. Équipe très professionnelle, rassurante et efficace. Merci encore !"
+      },
+      {
+        "name": "Lamyae E.",
+        "quote": "Je recommande vivement le cabinet DUO SMILE.\n\nJ’ai été traitée par le Dr Nassima EL FAKIR, qui a fait preuve d’un grand professionnalisme, de douceur et d’écoute tout au long de mes soins. Elle explique très bien chaque étape et met vraiment en confiance.\n\nLe Dr Mohammed Amine EL GHORFI a pris en charge ma maman et nous avons également été très satisfaites de son travail, de sa compétence et de son sérieux.\n\nUn cabinet sérieux, propre, avec une équipe bienveillante. Je recommande sans hésiter."
       }
     ]
   },
   "contact": {
     "title": "Prendre rendez-vous",
-    "intro": "Appelez-nous au <strong>{{phone}}</strong> ou remplissez le formulaire ci-dessous.",
-    "phone": "(555) 123-4567",
-    "namePlaceholder": "Votre nom",
-    "emailPlaceholder": "Votre e-mail",
-    "messagePlaceholder": "Message",
-    "submit": "Envoyer"
+    "intro": "Appelez-nous au <strong>{{phone}}</strong>, suivez-nous sur Instagram ou réservez en ligne.",
+    "phone": "+212 6 54 04 04 55",
+    "instagram": "Instagram",
+    "dentisto": "Réserver sur Dentisto"
   },
   "lang": {
     "switch": "Langue"
