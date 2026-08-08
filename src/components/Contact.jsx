@@ -12,7 +12,10 @@ export default function Contact() {
     const template = t("contact.intro");
     const phone = t("contact.phone");
     if (typeof template !== "string") return "";
-    return template.replace(/\{\{phone\}\}/g, phone);
+    return template.replace(
+      /\{\{phone\}\}/g,
+      `<bdi dir="ltr">${phone}</bdi>`
+    );
   }, [t]);
 
   return (
