@@ -1,0 +1,10 @@
+{
+  "name": "dr-amine",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('Prebuilt static site — skipping compile')\""
+  },
+  "devDependencies": {
+    "wrangler": "^4.120.0"
+  }
+}
