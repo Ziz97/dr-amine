@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ziz97.github.io/dr-amine/",
+  "homepage": ".",
   "name": "dr-amine",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build && node scripts/prepare-gh-pages.js",
+    "deploy:workers": "npm run build && wrangler deploy",
+    "icons": "node scripts/generate-icons.js"
   },
   "eslintConfig": {
     "extends": [
@@ -40,9 +41,13 @@
     ]
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "autoprefixer": "^10.4.22",
     "gh-pages": "^6.3.0",
+    "png-to-ico": "^3.0.2",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.18"
+    "sharp": "^0.35.3",
+    "tailwindcss": "^3.4.18",
+    "wrangler": "^4.120.0"
   }
 }

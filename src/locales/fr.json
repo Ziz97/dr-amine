@@ -15,7 +15,7 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Deux expertises , une seule mission : vous redonner le sourire",
+    "title": "Deux expertises, une seule mission : vous redonner le sourire",
     "cta": "Prendre rendez-vous"
   },
   "services": {
@@ -104,7 +104,7 @@
   "contact": {
     "title": "Prendre rendez-vous",
     "intro": "Appelez-nous au <strong>{{phone}}</strong>, suivez-nous sur Instagram ou réservez en ligne.",
-    "phone": "+212 6 54 04 04 55",
+    "phone": "06 54 04 04 55",
     "instagram": "Instagram",
     "dentisto": "Réserver sur Dentisto"
   },
